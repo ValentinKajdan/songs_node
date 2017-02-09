@@ -2,13 +2,13 @@
 
 <h1><%=song.title%></h1>
 <hr/>
-Album  : <%=song.album%>
-Artist : <%=song.artist%>
+Album  : <%=song.album%><br/>
+Artist : <%=song.artist%><br/>
 <% if (song.year) { %>
-  Year   : <%=song.year%>
+  Year   : <%=song.year%><br/>
 <% } %>
 <% if (song.bpm) { %>
-  BPM   : <%=song.bpm%>
+  BPM   : <%=song.bpm%><br/>
 <% } %>
 
 <% include partials/footer %>
